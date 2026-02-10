@@ -74,7 +74,12 @@ a:hover {
   text-decoration: none;
 }
 
-body,
+body {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: #FAF7F3;
+}
+
 td,
 th,
 tr,
@@ -154,7 +159,7 @@ span.highlight {
 }
 
 .publications-section .publication-item {
-  background: #fff;
+  background: #FDFBFA;
   border: 1px solid #e8eaed;
   border-left: 4px solid #1772d0;
   border-radius: 8px;
@@ -198,7 +203,7 @@ span.highlight {
 }
 
 .experience-item {
-  background: #fff;
+  background: #FDFBFA;
   border: 1px solid #e8eaed;
   border-left: 4px solid #f09228;
   border-radius: 8px;
@@ -224,7 +229,7 @@ span.highlight {
   min-width: 48px;
   border-radius: 8px;
   object-fit: contain;
-  background: #f8f9fa;
+  background: #FBF9F7;
   padding: 4px;
   box-sizing: border-box;
 }
